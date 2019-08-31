@@ -1,0 +1,22 @@
+.post-container {
+    width: 60%;
+    max-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 0px 2px #aaa;
+    overflow: auto;
+    margin: 2% 20%;
+}
+.post-header, .commentSection{
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: 1px solid #eee; 
+}
+.author {
+    display: flex;
+    align-items: center;
+
+    h5 {
+        margin-left: 15px;
+    }
+}

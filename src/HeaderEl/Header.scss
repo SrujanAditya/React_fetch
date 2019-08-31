@@ -1,0 +1,47 @@
+.App-header {
+  background-color: #EEE;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+.backBtn {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  cursor: pointer;
+
+  & .leftArrow{
+    background-image: url('../resources/left-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.user-as {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-indent: 20px;
+  font-size: 15px;
+  background-image: url('../resources/search.png');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 96% 3px;
+  outline: none;
+}

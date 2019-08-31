@@ -1,0 +1,14 @@
+.comment-author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment-cont {
+    padding-left: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+
+    .body {
+        color: #666;
+    }
+}
